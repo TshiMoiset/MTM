@@ -9,7 +9,7 @@ function openNavbar() {
     if (screenSizey.matches) {  // Om skärmstorleken är 568px tar hamburgerNavbarLinks 100% av skärmen
         document.getElementById("hamburgerNavbarLinks").style.width = "100%";  
     } else if (screenSizex.matches) {
-        document.getElementById("hamburgerNavbarLinks").style.width = "60%";    // Om skärmstorleken är 768px tar hamburgerNavbarLinks 60% av skärmen
+        document.getElementById("hamburgerNavbarLinks").style.width = "40%";    // Om skärmstorleken är 768px tar hamburgerNavbarLinks 60% av skärmen
         document.querySelector("main").style.opacity = "0.4";
         document.querySelector("main").style.backgroundColor = "rgba(0,0,0,0.4)"
     }

@@ -1,6 +1,5 @@
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 1784px) {
-	/*------------- Header -------------*/
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
@@ -48,11 +47,36 @@
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
-@media screen and (max-width: 635px) {
-}
-
 @media screen and (max-width: 541px) {
+	.bottom {
+		color: white;
+		font-size: 7px;
+		height: 10%;
+		left: 2rem;
+		top: 80%;
+	}
 }
 
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 426px) {
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 415px) {
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 412px) {
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 376px) {
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 361px) {
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 321px) {
 }
