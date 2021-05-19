@@ -1,0 +1,58 @@
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 1784px) {
+	/*------------- Header -------------*/
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 769px) {
+	/*------------- Header -------------*/
+	.hamburgerButton {
+		display: flex;
+	}
+
+	.dotMenu {
+		display: none;
+	}
+
+	.navbarLinks {
+		display: none;
+	}
+
+	.copyright span {
+		padding-right: 9px;
+	}
+	.rightContent {
+		padding: 15px 1px;
+		display: none;
+	}
+
+	main {
+		display: unset;
+		width: 105%;
+	}
+
+	.slides img,
+	.slides2 img,
+	.slides3 img,
+	.slides4 img,
+	.slides5 img,
+	.slides6 img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.bottom {
+		grid-gap: 1.5rem;
+		font-size: 0.75rem;
+	}
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 635px) {
+}
+
+@media screen and (max-width: 541px) {
+}
+
+@media screen and (max-width: 376px) {
+}
