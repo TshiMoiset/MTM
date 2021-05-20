@@ -96,12 +96,15 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 426px) {
+	body {
+		overflow: hidden;
+	}
+
 	.bottom {
 		display: grid;
 		grid-template-columns: auto auto;
 		left: 1rem;
-		position: absolute;
-		top: 50%;
+		top: 45%;
 	}
 
 	.bottom h1 {
@@ -123,12 +126,54 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 376px) {
+	.bottom {
+		display: grid;
+		grid-template-columns: 52% auto;
+		left: 1rem;
+		top: 40%;
+	}
+
+	.bottom h1 {
+		font-size: 25px;
+	}
+
+	.bottom p {
+		font-size: 14px;
+	}
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 361px) {
+	.bottom {
+		display: grid;
+		grid-template-columns: 53% auto;
+		left: 1rem;
+		top: 43%;
+	}
+
+	.bottom p {
+		font-size: 13px;
+	}
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 321px) {
+	body {
+		overflow: scroll;
+	}
+
+	.bottom {
+		display: grid;
+		grid-template-columns: auto auto;
+		top: 49%;
+		grid-row: 0px;
+	}
+
+	.bottom h1 {
+		font-size: 15px;
+	}
+
+	.bottom p {
+		font-size: 10px;
+	}
 }
