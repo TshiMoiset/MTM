@@ -56,7 +56,7 @@
 		height: 10%;
 		left: 2rem;
 		right: 2rem;
-		top: 76%;
+		top: 67%;
 		grid-gap: 2rem;
 		font-size: 0.75rem;
 	}
@@ -71,6 +71,7 @@
 	.bottom {
 		display: grid;
 		grid-template-columns: 23% 23% 23% auto;
+		position: absolute;
 		color: white;
 		font-size: 7px;
 		height: 10%;
@@ -95,6 +96,21 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 426px) {
+	.bottom {
+		display: grid;
+		grid-template-columns: auto auto;
+		left: 1rem;
+		position: absolute;
+		top: 50%;
+	}
+
+	.bottom h1 {
+		font-size: 25px;
+	}
+
+	.bottom p {
+		font-size: 14px;
+	}
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
