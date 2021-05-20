@@ -68,6 +68,10 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 541px) {
+	body {
+		overflow: hidden;
+	}
+
 	.bottom {
 		display: grid;
 		grid-template-columns: 23% 23% 23% auto;
@@ -126,6 +130,10 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 376px) {
+	body {
+		overflow: hidden;
+	}
+
 	.bottom {
 		display: grid;
 		grid-template-columns: 52% auto;
@@ -144,6 +152,10 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 361px) {
+	body {
+		overflow: hidden;
+	}
+
 	.bottom {
 		display: grid;
 		grid-template-columns: 53% auto;
