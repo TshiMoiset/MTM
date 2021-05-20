@@ -40,9 +40,29 @@
 		height: 100%;
 	}
 
+	.mediaImgNo {
+		display: none;
+	}
+
+	.mediaImg {
+		display: flex;
+	}
+
 	.bottom {
-		grid-gap: 1.5rem;
+		display: grid;
+		grid-template-columns: 23% 23% 23% auto;
+		color: white;
+		font-size: 7px;
+		height: 10%;
+		left: 2rem;
+		right: 2rem;
+		top: 76%;
+		grid-gap: 2rem;
 		font-size: 0.75rem;
+	}
+
+	.bottom p {
+		font-size: 13px;
 	}
 }
 
