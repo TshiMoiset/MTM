@@ -9,7 +9,7 @@ body {
 	height: 100vh;
 	color: white;
 	background-color: #051e37;
-	overflow: hidden;
+	overflow: hidden !important;
 }
 
 /*------------------  Scrollen  ------------------*/
